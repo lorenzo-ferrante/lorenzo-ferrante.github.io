@@ -7,10 +7,10 @@
   }
 }
 
-// Brand palette: dark blue and red/orange
+// Brand palette: dark blue and yellow
 $brand-blue: #003299;
-$brand-orange: #ff4b00;
-$brand-orange-dark: #d93f00;
+$brand-accent: #ffb400;
+$brand-accent-dark: #e0a000;
 
 body {
   color: #1d2433;
@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-  color: $brand-orange;
+  color: $brand-accent-dark;
 }
 
 h1, h2, h3, h4 {
@@ -38,29 +38,33 @@ h1, h2, h3, h4 {
 }
 
 .navbar .nav-link:hover,
-.navbar .nav-link.active {
-  color: $brand-orange !important;
+.navbar .nav-link:focus,
+.navbar .nav-link.active,
+.navbar .nav-item.active > .nav-link,
+.navbar .nav-link[aria-current="page"] {
+  color: $brand-accent !important;
 }
 
 .btn-primary {
-  background-color: $brand-orange;
-  border-color: $brand-orange;
-  color: #fff;
+  background-color: $brand-accent;
+  border-color: $brand-accent;
+  color: $brand-blue;
 }
 
 .btn-primary:hover {
-  background-color: $brand-orange-dark;
-  border-color: $brand-orange-dark;
+  background-color: $brand-accent-dark;
+  border-color: $brand-accent-dark;
+  color: $brand-blue;
 }
 
 .btn-outline-primary {
-  color: $brand-orange;
-  border-color: $brand-orange;
+  color: $brand-accent-dark;
+  border-color: $brand-accent;
 }
 
 .btn-outline-primary:hover {
-  background-color: $brand-orange;
-  color: #fff;
+  background-color: $brand-accent;
+  color: $brand-blue;
 }
 
 // Widget titles
@@ -72,7 +76,7 @@ h1, h2, h3, h4 {
 
 .section-heading h1 {
   display: inline-block;
-  border-bottom: 3px solid $brand-orange;
+  border-bottom: 3px solid $brand-accent;
   padding-bottom: 0.25rem;
 }
 
