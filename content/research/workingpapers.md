@@ -11,8 +11,8 @@ design:
 ---
 
 <p style="font-size:16px;">
-<a href="/uploads/Kocabas_JMP.pdf" target="_blank" rel="noopener" style="color: #0056b3; text-decoration: none;"><strong>Bridging the Gap: How Banks' Maturity Mismatch Shapes Monetary Policy Transmission</strong></a><br>
-With {{< coauthor name="Serkan Kocabaş" >}} &middot; Working Paper &middot; April 2026
+<a href="/uploads/Kocabas_JMP.pdf" target="_blank" rel="noopener" style="color: #003299; text-decoration: none;"><strong>Bridging the Gap: How Banks' Maturity Mismatch Shapes Monetary Policy Transmission</strong></a><br>
+<em>With {{< coauthor name="Serkan Kocabaş" >}}</em> &middot; Working Paper &middot; April 2026
 </p>
 
 <details>
@@ -23,7 +23,7 @@ This study examines how maturity mismatches in banks' balance sheets shape the t
 </details>
 
 <p style="font-size:16px;">
-<a href="https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2232~c3399f4b01.en.pdf" target="_blank" rel="noopener" style="color: #0056b3; text-decoration: none;"><strong>From cash- to securities-driven euro area repo markets</strong></a><br>
+<a href="https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2232~c3399f4b01.en.pdf" target="_blank" rel="noopener" style="color: #003299; text-decoration: none;"><strong>From cash- to securities-driven euro area repo markets</strong></a><br>
 <em>With {{< coauthor name="Claus Brand" >}} and {{< coauthor name="Antoine Hubert de Fraisse" >}}</em> &middot; ECB Working Paper No 2232 &middot; January 2019
 </p>
 

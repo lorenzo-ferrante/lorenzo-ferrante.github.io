@@ -6,3 +6,86 @@
     justify-content: center;
   }
 }
+
+// Brand palette: dark blue and red/orange
+$brand-blue: #003299;
+$brand-orange: #ff4b00;
+$brand-orange-dark: #d93f00;
+
+body {
+  color: #1d2433;
+}
+
+a {
+  color: $brand-blue;
+}
+
+a:hover {
+  color: $brand-orange;
+}
+
+h1, h2, h3, h4 {
+  color: $brand-blue;
+}
+
+.navbar {
+  background-color: $brand-blue !important;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: $brand-orange !important;
+}
+
+.btn-primary {
+  background-color: $brand-orange;
+  border-color: $brand-orange;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: $brand-orange-dark;
+  border-color: $brand-orange-dark;
+}
+
+.btn-outline-primary {
+  color: $brand-orange;
+  border-color: $brand-orange;
+}
+
+.btn-outline-primary:hover {
+  background-color: $brand-orange;
+  color: #fff;
+}
+
+// Widget titles
+.section-heading h1,
+.section-heading h2,
+.section-title {
+  font-size: 1.9rem !important;
+}
+
+.section-heading h1 {
+  display: inline-block;
+  border-bottom: 3px solid $brand-orange;
+  padding-bottom: 0.25rem;
+}
+
+details summary {
+  color: $brand-blue !important;
+  border-color: $brand-blue !important;
+}
+
+.footer {
+  background-color: $brand-blue !important;
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+}
