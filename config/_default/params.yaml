@@ -17,7 +17,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: ''
+    description: 'Lorenzo Ferrante, Data Science Expert and Ph.D. Candidate in Finance at the European Central Bank and University of Zurich.'
     twitter: ''
   analytics:
     google_analytics: ''
@@ -25,28 +25,12 @@ marketing:
     baidu_tongji: ''
     microsoft_clarity: ''
   verification:
-    google: 'Q1nSyE_ZZGburdgBWCJdLQioEzSm_gldnilHzZubeks'
+    google: ''
     baidu: ''
     bing: ''
-  google_site_verification: 'Q1nSyE_ZZGburdgBWCJdLQioEzSm_gldnilHzZubeks'
+  google_site_verification: ''
   baidu_site_verification: ''
   baidu_tongji: ''
-
-# Contact (edit or remove options as required)
-
-email: skocabas@eco.uc3m.es
-phone: '+34662045834'
-address:
-  street: Calle Madrid 126, Getafe/Madrid, 28903
-  city: Madrid
-  postcode: '28903'
-  country: Spain
-  country_code: ES
-coordinates:
-  latitude: '40.32249196048806'
-  longitude: '-3.725798925736152'
-directions: 1st floor, Office 15.1.08
-appointment_url: ''
 
 # Site header
 header:
@@ -59,12 +43,12 @@ header:
     show_day_night: false
     show_theme_chooser: false
     logo:
-      text: 'Serkan Kocabaş'
+      text: 'Lorenzo Ferrante'
 
 logo:
-  light: 'uploads/icon.png'
-  dark:  'uploads/icon.png'
-  favicon: 'uploads/icon.png'
+  light: 'uploads/icon-v2.png'
+  dark:  'uploads/icon-v2.png'
+  favicon: 'uploads/icon-v2.png'
 
 # Localization
 
