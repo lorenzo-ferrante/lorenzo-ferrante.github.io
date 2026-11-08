@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Lorenzo Ferrante # Website name
-baseURL: 'https://lorenzoferrante.github.io' # Website URL
+baseURL: 'https://lorenzo-ferrante.github.io' # Website URL
 
 ############################
 ## LANGUAGE

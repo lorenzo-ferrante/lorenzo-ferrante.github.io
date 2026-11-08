@@ -55,7 +55,7 @@ social:
     link: https://www.linkedin.com/in/lorenzo-ferrante-ecb/  
   - icon: github
     icon_pack: fab
-    link: https://github.com/lorenzof3
+    link: https://github.com/lorenzo-ferrante
   - icon: graduation-cap 
     icon_pack: fas
     link: https://scholar.google.com/citations?hl=en&user=6HisSYkAAAAJ
