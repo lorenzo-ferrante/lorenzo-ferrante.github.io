@@ -41,7 +41,16 @@ h1, h2, h3, h4 {
 .navbar .nav-link:focus,
 .navbar .nav-link.active,
 .navbar .nav-item.active > .nav-link,
-.navbar .nav-link[aria-current="page"] {
+.navbar .nav-link[aria-current="page"],
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .active > .nav-link,
+nav a.active,
+nav a[aria-current="page"] {
+  color: $brand-accent !important;
+}
+
+.navbar a.active *,
+.navbar [aria-current="page"] * {
   color: $brand-accent !important;
 }
 
