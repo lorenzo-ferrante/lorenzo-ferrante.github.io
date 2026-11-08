@@ -1,0 +1,11 @@
+{{- $name := .Get "name" -}}
+{{- $url := "" -}}
+{{- $site := .Site -}}
+{{- range $site.Pages -}}
+  {{- if and (eq .Title $name) (in .Params.user_groups "Co-authors") -}}
+    {{- range .Params.social -}}
+      {{- if eq .icon "globe" -}}{{- $url = .link -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if $url -}}<a href="{{ $url }}" target="_blank" rel="noopener">{{ $name }}</a>{{- else -}}{{ $name }}{{- end -}}

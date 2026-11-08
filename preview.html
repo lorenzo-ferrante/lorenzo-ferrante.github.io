@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lorenzo Ferrante (preview)</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 1.5; color: #333; background: #fafafa; }
+  a { color: #0056b3; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  nav { position: sticky; top: 0; background: #fff; border-bottom: 1px solid #ddd; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; height: 56px; z-index: 10; }
+  nav .brand { font-weight: bold; color: #222; font-size: 16px; }
+  nav ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 22px; }
+  nav ul a { color: #333; }
+  main { max-width: 900px; margin: 0 auto; padding: 32px 24px; }
+  .hero { display: flex; gap: 32px; align-items: flex-start; }
+  .avatar { width: 180px; height: 180px; border-radius: 50%; object-fit: cover; flex-shrink: 0; background: #ddd; }
+  .hero h1 { margin: 0 0 4px 0; font-size: 30px; color: #111; }
+  .role { font-size: 17px; color: #555; margin: 0 0 6px 0; }
+  .org a { font-weight: bold; }
+  .bio { margin: 10px 0; text-align: justify; }
+  .social { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 8px; }
+  .social a { display: inline-block; padding: 4px 10px; border: 1px solid #0056b3; border-radius: 16px; font-size: 13px; }
+  .columns { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 28px; }
+  .card { background: #fff; border: 1px solid #e3e3e3; border-radius: 6px; padding: 16px 20px; }
+  .card h3 { margin: 0 0 10px 0; font-size: 16px; color: #111; border-bottom: 1px solid #eee; padding-bottom: 6px; }
+  .card ul { margin: 0; padding-left: 18px; }
+  .card li { margin-bottom: 6px; }
+  .edu-year { color: #777; font-size: 13px; }
+  .body-section { margin-top: 28px; background: #fff; border: 1px solid #e3e3e3; border-radius: 6px; padding: 20px 24px; }
+  footer { text-align: center; color: #888; font-size: 13px; padding: 24px; border-top: 1px solid #ddd; margin-top: 32px; }
+  @media (max-width: 720px) {
+    .hero { flex-direction: column; align-items: center; text-align: center; }
+    .columns { grid-template-columns: 1fr; }
+    nav ul { gap: 12px; flex-wrap: wrap; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <span class="brand">Lorenzo Ferrante</span>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Research</a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <section class="hero">
+    <img class="avatar" src="static/uploads/avatar.jpeg" alt="Avatar">
+    <div>
+      <h1>Lorenzo Ferrante</h1>
+      <p class="role">Data Science Expert and Ph.D. Candidate in Finance</p>
+      <p class="org"><a href="https://www.ecb.europa.eu/home/html/index.en.html">European Central Bank</a>, <a href="https://www.df.uzh.ch/en.html">University of Zurich, Department of Finance</a></p>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/lorenzo-ferrante-ecb/">LinkedIn</a>
+        <a href="https://github.com/lorenzof3">GitHub</a>
+        <a href="https://scholar.google.com/citations?hl=en&amp;user=6HisSYkAAAAJ">Google Scholar</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="body-section" style="font-size: 14px;">
+
+    <p style="text-align: justify; margin-bottom: 15px;">
+    I am working as Data Science Expert at the European Central Bank and I am a Ph.D. candidate in Finance at the University of Zurich.
+    </p>
+
+    <p style="text-align: justify; margin-bottom: 15px;">
+    My research focuses on monetary policy, banking and finance.
+    </p>
+
+    <h3 style="font-size: 16px; font-weight: bold; margin-bottom: 10px;">Upcoming presentations</h3>
+
+    <p style="margin-bottom: 15px;">No upcoming presentations.</p>
+
+    <details style="margin-bottom: 25px;">
+      <summary style="font-size: 16px; font-weight: bold; margin-bottom: 10px; cursor: pointer;">Past presentations</summary>
+
+      <ul style="margin-top: 10px; padding-left: 20px;">
+        <li style="margin-bottom: 8px;"><strong>May 27-30, 2026:</strong> I presented my paper <em>"Bridging the Gap: How Banks’ Maturity Mismatch Shapes Monetary Policy Transmission"</em> at the <strong><a href="https://icmaif.soc.uoc.gr">30th International Conference on Macroeconomic Analysis and International Finance</a></strong> in Crete, Greece.</li>
+        <li style="margin-bottom: 8px;"><strong>March 2, 2026:</strong> I presented my paper <em>"Bridging the Gap: How Banks’ Maturity Mismatch Shapes Monetary Policy Transmission"</em> at the <strong>6th Benelux Banking Research Day</strong> in Rotterdam, Netherlands.</li>
+      </ul>
+    </details>
+
+  </section>
+
+</main>
+
+<footer>© 2026 Lorenzo Ferrante — All rights reserved.</footer>
+
+</body>
+</html>

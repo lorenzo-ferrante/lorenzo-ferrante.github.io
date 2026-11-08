@@ -1,0 +1,37 @@
+---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
+title: "Bridging the Gap: How Banks' Maturity Mismatch Shapes Monetary Policy Transmission"
+weight: 1
+authors:
+- admin
+date: 2026-04-01
+featured: true
+publication_types: ["3"]
+
+# Publication name and optional abbreviated version.
+publication: "Working Paper"
+
+# Abstract and optional shortened version.
+abstract: |
+  <details>
+    <summary style="cursor: pointer; padding: 8px 16px; background: transparent; color: #2c3e50; border: 2px solid #2c3e50; border-radius: 4px; display: inline-block; font-weight: 600;">
+      Show Abstract
+    </summary>
+    <div style="margin-top: 15px; padding: 20px; background: white; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); line-height: 1.6;text-align: justify;">
+      This study examines how maturity mismatches in banks' balance sheets shape the transmission of monetary policy to credit supply. Linking supervisory data on approximately 1,800 euro area banks to loan-level credit records, we show that the role of maturity mismatches is highly \textit{shock-specific}. Mismatches amplify the effects of \textit{unconventional} but not \textit{conventional} monetary policies. Banks with larger maturity gaps reduce lending more sharply following monetary policy surprises regarding quantitative tightening (QT) because valuation losses on long-term assets negatively affect their net worth, causing tighter leverage constraints. To rationalize these findings, we develop a medium-scale New Keynesian DSGE model featuring a segmented financial sector, where intermediaries are differentiated by their maturity gaps. This framework explains the observed asymmetry: the high-mismatch banking segment is more exposed to long-duration losses that compress net worth, tighten endogenous leverage constraints, and amplify real economic effects through an investment wedge, whereas standard policy rate shocks---which mainly affect short-term rates---generate little heterogeneity in lending responses.
+    </div>
+  </details>
+#- name: PDF
+#  url: uploads/uc3m_paper.pdf
+#- name: FRBSF Working Paper
+#  url: ""
+#- name: CEPR Discussion Paper
+#  url: ""
+#- name: Code & Data
+#  url: ""
+#- name: Estimated Rules
+#  url: ""
+---
+
+
