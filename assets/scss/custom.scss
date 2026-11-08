@@ -50,8 +50,10 @@ nav a[aria-current="page"] {
 }
 
 .navbar a.active *,
-.navbar [aria-current="page"] * {
+.navbar [aria-current="page"] * {a.nav-link.active span,
+a.nav-link.active > span {
   color: $brand-accent !important;
+}  color: $brand-accent !important;
 }
 
 .btn-primary {
