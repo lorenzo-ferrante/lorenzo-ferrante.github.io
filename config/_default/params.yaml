@@ -96,7 +96,7 @@ plugins_js: []
 
 avatar:
   gravatar: false
-  shape: circle
+  shape: square
   image: "uploads/avatar.jpg"
   image_processing: false
 
