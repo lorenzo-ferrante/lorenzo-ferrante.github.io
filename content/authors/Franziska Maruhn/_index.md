@@ -18,8 +18,10 @@ organizations:
     url: https://www.ecb.europa.eu/home/html/index.en.html
 
 # Social/Academic Networking
-social: []
-email: ''
+social:   
+  - icon: globe
+    icon_pack: fas
+    link: https://sites.google.com/view/franziskahuennekes
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
