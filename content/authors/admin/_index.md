@@ -75,7 +75,7 @@ Welcome to my personal website!
 </p>
 
 <p style="text-align: justify; margin-bottom: 15px;">
-I am currently Data Science Expert at the European Central Bank and I am a Ph.D. candidate in Finance at the University of Zurich. I have been working in central banking since 2016, after 
+I am currently Data Science Expert at the European Central Bank and I am a Ph.D. candidate in Finance at the University of Zurich. I have been working in central banking since 2016. 
 </p>
 <p style="text-align: justify; margin-bottom: 15px;">
 My research focuses on monetary policy, banking and finance.
